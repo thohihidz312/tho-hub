@@ -1,0 +1,17 @@
+local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/RedzLibV5/refs/heads/main/Source.lua"))()
+local Window = redzlib:MakeWindow({
+  Title = "Tho Hub",
+  SubTitle = "By Tho",
+})
+
+local AFKOptions = {}
+
+local Discord = Window:MakeTab({"Discord", "Info"})
+Discord:AddDiscordInvite({
+  Name = "TĂªn Discord",
+  Description = "Join our discord community to receive information about the next update",
+  Logo = "rbxassetid://119570691022613",
+  Invite = "link Discord"
+})
+
+local Main =  Window:MakeTab({"Main", "Info"})

@@ -8,10 +8,8 @@ local AFKOptions = {}
 
 local Discord = Window:MakeTab({"Discord", "Info"})
 Discord:AddDiscordInvite({
-  Name = "TĂªn Discord",
+  Name = "Discord",
   Description = "Join our discord community to receive information about the next update",
   Logo = "rbxassetid://119570691022613",
   Invite = "link Discord"
 })
-
-local Main =  Window:MakeTab({"Main", "Info"})
